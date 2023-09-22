@@ -57,7 +57,7 @@ public class Mercado {
             Mercado.comprarProduto();
             break;
             case 4:
-            Mercado.visualizarProduto();
+            Mercado.visualizarCarrinho();
             break;
             case 5:
             System.out.println("Volte sempre!");
@@ -73,6 +73,22 @@ public class Mercado {
 
     }
 
+    private static void cadastrarProduto() {
+        System.out.println("Cadastrando produto...");
+    }
+
+    private static void listarProduto(){
+       System.out.println("Listando produtos...");
+       
+    }
+    private static void comprarProduto(){
+        System.out.println("Listando produtos...");
+        
+    }
+     private static void visualizarCarrinho(){
+        System.out.println("Listando produtos...");
+        
+    } 
 
 
 }
